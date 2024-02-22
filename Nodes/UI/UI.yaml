@@ -917,7 +917,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/Historian_Datalog_Reports/UI/Screens/Login1"
+            Value: "/Objects/Historian_Datalog_Reports/UI/LoginForm1/LoginForm"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -942,22 +942,17 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 20.0
+            Value: 24.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: 5.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
-          - Name: PanelAliasNode
-            Type: BaseDataVariableType
-            DataType: NodeId
-            ValueRank: ScalarOrOneDimension
-            Value: ["/Objects/Historian_Datalog_Reports/Security/Users","/Objects/Historian_Datalog_Reports/UI/LoginForm1/LoginFormComponents/LoginPasswordExpiredDialog"]
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment

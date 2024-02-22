@@ -16,6 +16,34 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
   - Name: VerticalLayout1
     Type: ColumnLayout
     Children:
@@ -323,7 +351,6 @@ Children:
         Children:
         - Class: Method
           Name: PerformLogin
-          Id: g=9387c7657dcdbb02909847cd53206754
           Children:
           - Name: ns=0;InputArguments
             Type: BaseVariableType
@@ -515,7 +542,6 @@ Children:
           Children:
           - Class: Method
             Name: SetOutputMessage
-            Id: g=9d642237cfc8d17d431b21cef921da42
             Children:
             - Name: ns=0;InputArguments
               Type: BaseVariableType
@@ -1581,7 +1607,7 @@ Children:
       Value: 2
 - Name: Logout
   Id: g=2eebfd3def044e747aa57952fc13c70d
-  Supertype: Panel
+  Supertype: Screen
   ReferenceType: HasComponent
   Children:
   - Name: Width
@@ -1594,6 +1620,34 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
   - Name: Button1
     Type: Button
     Children:
@@ -1701,6 +1755,11 @@ Children:
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 2
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
   - Name: CurrentUserName
     Type: Label
     Children:
@@ -1723,3 +1782,8 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#ffffff"
