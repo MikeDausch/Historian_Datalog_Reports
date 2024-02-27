@@ -15,6 +15,7 @@ using FTOptix.NetLogic;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.Report;
+using FTOptix.RAEtherNetIP;
 
 #endregion
 

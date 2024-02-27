@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.OPCUAServer;
 using FTOptix.Report;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class LoginFormOutputMessageLogic : BaseNetLogic

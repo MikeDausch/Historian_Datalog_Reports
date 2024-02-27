@@ -5,6 +5,7 @@ using System;
 using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.ODBCStore;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class ReportEditorOutputMessageLogic : BaseNetLogic {

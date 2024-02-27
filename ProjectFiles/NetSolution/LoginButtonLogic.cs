@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.UI;
 using FTOptix.Report;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic
